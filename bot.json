@@ -1,0 +1,62 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see" ,"you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["make", "me", "coffee"],
+    "bot_response": "Sorry Do it Yourself.",
+    "required_words": ["coffee", "me"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who","are","you"],
+    "bot_response": "I am a Bot made by Rajesh Pradhan for his Project.",
+    "required_words": ["who","are","you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "is","the", "prime", "minister","of","India"],
+    "bot_response": "Shri Narendra Modi.",
+    "required_words": ["who","prime", "minister", "india"]
+  },
+  {
+    "response_type": "Command",
+    "user_input": ["Recommend", "me", "some","Action","Anime"],
+    "bot_response": "I will recommend Attack on Titan,Full Metal Alchemist,Demon Slayer,One Punch,My Hero Acedemia",
+    "required_words": ["recommend","some","action","anime"]
+  }
+]
